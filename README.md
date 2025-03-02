@@ -22,8 +22,8 @@ Soy un apasionado de la tecnología con experiencia en **desarrollo de software,
 💡 **Habilidades Clave:**  
 ✔ Full Stack Development (Frontend & Backend)  
 ✔ Seguridad Informática: Threat Hunting, Forense Digital, SIEM, Respuesta a Incidentes  
-✔ Redes y Administración de Sistemas Linux & Windows  
-✔ Arquitectura de Software y DevOps  
+✔ Redes, Administración de Sistemas & Soporte IT.
+✔ Arquitectura de Software y DevOps.  
 ✔ Cloud Computing (AWS, Azure)  
 ✔ Automación y Scripts en Python & Bash  
 
