@@ -74,6 +74,9 @@ Soy un apasionado de la tecnología con experiencia en **desarrollo de software,
   <img src="https://img.shields.io/badge/Kill%20Chain-FF5722?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/ATT&CK%20Frameworks-FF9800?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Sandbox%20COCO-3DDC84?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Jira_Service_Management-0052CC?style=for-the-badge&logo=jira&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Administración%20de%20Hyper--V-0078D6?style=for-the-badge&logo=windows&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Scrum%20Master-2496ED?style=for-the-badge&logo=scrumalliance&logoColor=white"/>
 </p>
 
 ---
