@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>CV – Jose Lemus</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #0f172a 0, #020617 45%, #000 100%);
+      display: flex;
+      justify-content: center;
+      padding: 32px 8px;
+      color: #020617;
+    }
+
+    .cv-wrapper {
+      max-width: 900px;
+      width: 100%;
+      background: #f8fafc;
+      border-radius: 18px;
+      box-shadow: 0 20px 60px rgba(0,0,0,.5);
+      padding: 32px;
+      border: 1px solid rgba(148, 163, 184, 0.4);
+    }
+
+    .header {
+      display: grid;
+      grid-template-columns: 1fr 140px;
+      gap: 20px;
+      align-items: center;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+
+    .name {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .title {
+      font-size: 14px;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      color: #1d4ed8;
+      margin-bottom: 8px;
+    }
+
+    .contact {
+      font-size: 13px;
+      color: #475569;
+      line-height: 1.6;
+    }
+
+    .photo {
+      width: 130px;
+      height: 130px;
+      border-radius: 18px;
+      overflow: hidden;
+      border: 3px solid #2563eb;
+      box-shadow: 0 10px 30px rgba(37,99,235,.4);
+    }
+
+    .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .bt-banner {
+      margin-top: 6px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 5px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(59,130,246,.4);
+      background: rgba(15,23,42,.04);
+      font-size: 12px;
+    }
+
+    .bt-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: rgb(34,197,94);
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.5); opacity:.4; }
+      100% { transform: scale(1); }
+    }
+
+    .section {
+      margin-bottom: 22px;
+    }
+
+    .section-title {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .15em;
+      color: #64748b;
+      margin-bottom: 8px;
+    }
+
+    .exp-item {
+      margin-bottom: 14px;
+    }
+
+    .exp-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 600;
+      font-size: 13px;
+    }
+
+    .exp-desc {
+      font-size: 13px;
+      margin-left: 8px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="cv-wrapper">
+
+    <div class="header">
+      <div>
+        <div class="name">JOSE LEMUS</div>
+        <div class="title">ANALISTA DE CIBERSEGURIDAD</div>
+
+        <div class="contact">
+          Tel: 621-483-254<br>
+          Email: lemusjose@protonmail.com<br>
+          España<br>
+          LinkedIn: <a href="https://www.linkedin.com/in/jcrlemus" target="_blank">linkedin.com/in/jcrlemus</a>
+        </div>
+
+        <div class="bt-banner">
+          Blue Team · SOC Analyst <span class="bt-dot"></span>
+        </div>
+      </div>
+
+      <div class="photo">
+        <img src="foto-jose-lemus.png" alt="Foto Jose Lemus">
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Perfil Profesional</div>
+      Especialista en proteger datos e infraestructuras mediante tácticas avanzadas y frameworks. Experiencia en prevención de amenazas, análisis de vulnerabilidades y uso de plataformas SIEM, garantizando continuidad operativa y resiliencia tecnológica. Perfil orientado a entornos SOC y operaciones Blue Team.
+    </div>
+
+    <div class="section">
+      <div class="section-title">Proyecto Destacado</div>
+      <b>Enterprise SOC Laboratory – Diciembre 2025</b><br>
+      Implementación completa de laboratorio SOC con Wazuh 4.9.2 y OpenSearch. Monitoreo multiplataforma (Windows 10 y Ubuntu Server), detección de amenazas MITRE ATT&CK, simulación de ataques con Kali Linux, File Integrity Monitoring y creación de reglas de alertas personalizadas.
+    </div>
+
+    <div class="section">
+      <div class="section-title">Experiencia Profesional</div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <span>AIR EUROPA / GLOBALIA – Técnico de Soporte TRAX H24</span>
+          <span>Abr 2025 – Nov 2025</span>
+        </div>
+        <div class="exp-desc">
+          Soporte técnico 24/7 a pilotos, tripulación y TMAs para aplicaciones eMobility (PilotLog, CabinLog, Quick Turn, Task Control). Gestión de contingencias, transcripción de TLP a eMRO, ACARS, coordinación con Maintrol, alta de TMAs externos, monitorización mediante Grafana y JasperServer.
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <span>ÁREAS S.A.U – Soporte Técnico</span>
+          <span>2018 – 2019</span>
+        </div>
+        <div class="exp-desc">
+          Soporte técnico de primer y segundo nivel, análisis de incidencias y documentación de resoluciones.
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <span>Denny’s NYC – Operations Manager</span>
+          <span>2013 – 2017</span>
+        </div>
+        <div class="exp-desc">
+          Gestión de operaciones, liderazgo de equipos y optimización de procesos.
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
